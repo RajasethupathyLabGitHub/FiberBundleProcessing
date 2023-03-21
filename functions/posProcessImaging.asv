@@ -1,0 +1,6 @@
+[rois,Cn,C,dF_F,dF_F0,T] = postProcessImaging(subfolderPath,fileName);
+
+neuron_i = load();
+
+roitemp = reshape(full(neuron_i.A),size(neuron_i.Cn,1),size(neuron_i.Cn,2),size(neuron_i.A,2));
+rois = permute(roitemp,[3,1,2]);
