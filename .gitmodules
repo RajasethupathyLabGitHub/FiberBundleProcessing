@@ -1,0 +1,9 @@
+[submodule "CNMF_E_FB"]
+	path = CNMF_E_FB
+	url = https://github.com/RajasethupathyLabGitHub/CNMF_E_FB.git
+[submodule "CellReg"]
+	path = CellReg
+	url = https://github.com/zivlab/CellReg.git
+[submodule "NoRMCorre"]
+	path = NoRMCorre
+	url = https://github.com/flatironinstitute/NoRMCorre.git
